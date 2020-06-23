@@ -17,3 +17,16 @@ def valid_move?(board, index)
   else
   end
 end
+
+def input_to_index(user)
+  user.to_i - 1
+end
+
+# 1. method should accept a board, an index from the user
+2. converted from their raw input with input_to_index
+3. token to mark that position with
+4. should set the correct index value of that position within the board equal to the token.
+
+def move(board, index)
+  
+end
