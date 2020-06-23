@@ -12,7 +12,7 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-  if index == (0..8) && (board[index] != "X" || board[index] != "Y")
+  if board[index] == (0..8) && (board[index] != "X" || board[index] != "Y")
     true
   else
   end
