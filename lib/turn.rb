@@ -8,13 +8,11 @@ end
 
 def position_taken?(board, index)
   if board[index] != " "
-    true
-  else
   end
 end
 
 def valid_move?(board, index)
-  if position_taken?(board, index) == true#index.between?(0, 8) && 
+  if index.between?(0, 8) && position_taken?(board, index) == true
     true
   else
     false
